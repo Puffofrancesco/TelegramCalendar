@@ -3,3 +3,6 @@ This is a telegram bot that sends all the events of the day from your Google Cal
 I used the following APIs:    
   - Google.Apis.Calendar.v3;   
   - Telegram.Bot;
+_________________________________________________________________________________________________________________________________________________________________________
+
+To look at the C# code go to TelegramCalendar/TelegramCalendarBot/TelegramCalendarBot/Program.cs :D
