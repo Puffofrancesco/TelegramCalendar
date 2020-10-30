@@ -92,7 +92,7 @@ namespace TelegramCalendarBot
             request.TimeMin = DateTime.Now;
             request.ShowDeleted = false;
             request.SingleEvents = true;
-            request.MaxResults = 5;
+            request.MaxResults = 5; //this is the number of events the bot will send
             request.OrderBy = EventsResource.ListRequest.OrderByEnum.StartTime;
 
             return request;
